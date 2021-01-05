@@ -1,0 +1,152 @@
+:root {
+
+    --primary: #784D3C;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --font-paragraph: 'Open Sans', sans-serif;
+    --font-heading: 'PT Sans', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-paragraph);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* ------------- Globales ------------- */
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utilidades */
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* ------------- Header ------------- */
+.header {
+    height: 60rem;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* centrarlo en Y y X */
+    background-position: center center;
+}
+
+.header__text {
+    text-align: center;
+    color: var(--white);
+    margin-top: 5rem;
+}
+
+.logo {
+    color: var(--white);
+}
+
+.logo__name {
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+.logo__bold {
+    font-weight: 700;
+}
+
+.navigation {
+    margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    .bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__text {
+        margin-top: 1.5rem;
+    }
+
+    .navigation {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.navigation__link {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+
+
+/* ------------- ------------- */
+
+
+
+
+/* ------------- ------------- */
+
+
+
+/* ------------- ------------- */
+
+
+
+
+/* ------------- ------------- */
+
+
+
+/* ------------- ------------- */
