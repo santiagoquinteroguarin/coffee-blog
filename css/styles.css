@@ -101,6 +101,10 @@ img {
     font-weight: 700;
 }
 
+.bar {
+    padding-top: 4rem;
+}
+
 @media (min-width: 768px) {
     .bar {
         display: flex;
@@ -123,6 +127,10 @@ img {
     text-align: center;
     font-size: 1.8rem;
     color: var(--white);
+}
+
+.navigation__link:hover {
+    color: gray;
 }
 
 /* ------------- Main Content ------------- */
@@ -167,8 +175,16 @@ img {
     background-color: var(--black);
 }
 
+.button--primary:hover {
+    color: grey;
+}
+
 .button--secondary {
     background-color: var(--primary);
+}
+
+.button--secondary:hover {
+    color: var(--black);
 }
 
 /* ------------- Sidebar ------------- */
@@ -200,8 +216,11 @@ img {
     font-weight: 400;
 }
 
-/* ------------- ------------- */
-
-
+/* ------------- Footer ------------- */
+.footer {
+    background-color: var(--black);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
 
 /* ------------- ------------- */
