@@ -223,4 +223,15 @@ img {
     margin-top: 4rem;
 }
 
-/* ------------- ------------- */
+/* ------------- Nosotros ------------- */
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .sobre-nosotros__text,
+    .sobre-nosotros__img {
+        flex-basis: 50%;
+    }
+}
